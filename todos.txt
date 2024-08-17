@@ -1,7 +1,5 @@
-Clean Room
-Cook Dinner
-Buy coffee
-Wash sheets
+Wash Sheets
 Dry Sheets
 Drink Water
 Study Python
+Music
