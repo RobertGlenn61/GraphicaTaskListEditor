@@ -2,7 +2,11 @@
 from FileFunctions import read_todos, write_todos
 import FreeSimpleGUI as gui
 import time
+import os
 
+if not(os.path.exists('todos.txt')):
+    with open('todos.txt','w') as file:
+        pass
 
 gui.theme('Purple')
 task_label = gui.Text('Type in a task')
